@@ -1,0 +1,18 @@
+Test on Converter Class
+1. Test on Converting Average wind speed
+Actual: 36.9 | Expected: 36.9
+[ PASS ] : Average Speed Count as 36.9
+
+Test on Converter Class
+2. Test on Converting Average Air Temperature
+Actual: 10.25 | Expected: 10.25
+[ PASS ] : Average Air Temperature as 10.25
+
+Test on Converter Class
+3. Test on Converting Total sum for solar radiation
+Actual: 2 | Expected: 2
+[ PASS ] : Total Solar Radiation as 2
+
+
+All tests completed.
+Total tests: 3 |  Tests passed: 3 |  Tests failed: 0

@@ -1,0 +1,52 @@
+Test on Vector Class
+1. Test on Default Constructor <unsigned data type>
+[ PASS ] : unsignedVec is of type Vector<unsigned>
+
+2. Test on Default Constructor <string data type>
+[ PASS ] : stringVec is of type Vector<string>
+
+3. Test on Default Constructor <Date object type>
+[ PASS ] : dateVec is of type Vector<Date>
+
+4. Test on Default Constructor <Time object type>
+[ PASS ] : timeVec is of type Vector<Time>
+
+5. Test on Default Constructor <WindLogType object type>
+[ PASS ] : windLogVec is of type Vector<Date>
+
+6. Test on Default Constructor member variables (Capacity)
+[ PASS ] : Default constructed vector capacity at 2
+
+7. Test on Default Constructor member variables (Used Slot)
+[ PASS ] : Default constructed vector used slot at 0
+
+8. Test on Default Constructor member variables (array pointer)
+[ PASS ] : Default constructed vector array pointer not pointing to nullptr
+
+9. Test on Adding unsigned value to unsignedVec
+[ PASS ] : unsigned Vector return true after added value 12
+
+10. Test on Getting value by index on unsignedVec
+[ PASS ] : unsigned Vector contains value 12 at index 0
+
+11. Test on passing unsignedVec into a Copy Constructor
+[ PASS ] : anotherUnsignedVec's capacity has been deep copied from referencing unsignedVec
+[ PASS ] : anotherUnsignedVec's used slot has been deep copied from referencing unsignedVec
+[ PASS ] : anotherUnsignedVec's has a different address pointer as unsignedVec
+[ PASS ] : anotherUnsignedVec's has the same value at index 0 been copied from unsignedVec
+[ PASS ] : anotherUnsignedVec's has the same value at index 0  as unsignedVec, with a different address storing the value
+
+12. Test on Overload equals operator with unsignedVector been set equals to thirdUnsignedVector
+[ PASS ] : thirdUnsignedVector's capacity has been deep copied by using overload equals operator been set with unsignedVec
+[ PASS ] : thirdUnsignedVector's used slot has been deep copied by using overload equals operator been set with unsignedVec
+[ PASS ] : thirdUnsignedVec's has a different address pointer as unsignedVec
+[ PASS ] : thirdUnsignedVector's value at index 0 has been deep copied with unsignedVec
+[ PASS ] : thirdUnsignedVector's has the same value at index 0  as unsignedVec, with a different address storing the value
+
+13: Scenario Test, [Adding 2 elements into the dynamic array]
+[ PASS ] : Space has been allocated to 4 spaces after adding 2 elements
+[ PASS ] : Space used is 2 after adding 2 elements
+
+
+All tests completed.
+Total tests: 22 |  Tests passed: 22 |  Tests failed: 0

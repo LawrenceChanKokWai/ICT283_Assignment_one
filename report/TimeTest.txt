@@ -1,0 +1,17 @@
+Test on Time Class
+1. Test on Default Constructor output stream
+Actual: Time: 0:00 | Expected: Time: 0:00
+[ PASS ] : Default Constructor Time hour set as 0
+[ PASS ] : Default Constructor Time minute set as 00
+
+2. Test Setters on Setting hour
+Actual: 12 | Expected: 12
+[ PASS ] : Time hour has been set to 12
+
+3. Test Setters on Setting minutes
+Actual: 22 | Expected: 22
+[ PASS ] : Time minutes has been set to 22
+
+
+All tests completed.
+Total tests: 4 |  Tests passed: 4 |  Tests failed: 0

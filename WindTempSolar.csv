@@ -1,0 +1,13 @@
+Month,Average Wind Speed (km/h),Average Ambient Air Temperature (°C),Total Solar Radiation (kWh/m2)
+January,0,0,0 kWh/m2
+February,0,0,0 kWh/m2
+March,20.2,22.8,192.5 kWh/m2
+April,13.7,19.3,146.8 kWh/m2
+May,17,16.5,97.5 kWh/m2
+June,4.6,13.2,90.5 kWh/m2
+July,12.7,13.4,95.6 kWh/m2
+August,18.9,15.4,123.2 kWh/m2
+September,20.5,16,154.9 kWh/m2
+October,18.8,17.7,209.5 kWh/m2
+November,20.3,19,228.5 kWh/m2
+December,21.7,21.2,276.4 kWh/m2

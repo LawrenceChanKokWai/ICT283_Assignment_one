@@ -1,0 +1,38 @@
+Test on WindLogType Class
+1. Test on Default Constructor output stream
+Actual: Date: 0/0/0 Time: 0:00 0 0 0 | Expected: Date: 0/0/0 Time: 0:00 0 0 0
+[ PASS ] : Default Constructor Date class Day set as 0
+[ PASS ] : Default Constructor Date class Month set as 0
+[ PASS ] : Default Constructor Date class Year set as 0
+[ PASS ] : Default Constructor Time class Hour set as 0
+[ PASS ] : Default Constructor Time class Minute set as 00
+[ PASS ] : Default Constructor wind speed set as 0
+[ PASS ] : Default Constructor air temperature set as 0
+[ PASS ] : Default Constructor solar radiation set as 0
+
+2. Test Setters on Date object
+Actual: Date: 11/12/2020 | Expected: 11/12/2020
+[ PASS ] : Date day is set to 11
+[ PASS ] : Date month is set to 12
+[ PASS ] : Date year is set to 2020
+
+3. Test Setters on Time object
+Actual: Time: 11:12 | Expected: 11:12
+[ PASS ] : Time hours is set to 11
+[ PASS ] : Time minutes is set to 12
+
+4. Test Setters on Wind Speed
+Actual: 29.1 | Expected: 29.1
+[ PASS ] : Wind Speed is set to 29.1
+
+5. Test Setters on Air Temperature
+Actual: 32.3 | Expected: 32.3
+[ PASS ] : Air Temperature is set to 32.3
+
+6. Test Setters on Solar Radiation
+Actual: 43.1 | Expected: 43.1
+[ PASS ] : Solar Radiation is set to 43.1
+
+
+All tests completed.
+Total tests: 16 |  Tests passed: 16 |  Tests failed: 0

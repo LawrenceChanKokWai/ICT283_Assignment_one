@@ -1,0 +1,26 @@
+Test on Date Class
+1. Test on Default Constructor output stream
+Actual: Date: 0/0/0 | Expected: Date: 0/0/0
+[ PASS ] : Default Constructor Day set as 0
+[ PASS ] : Default Constructor Month set as 0
+[ PASS ] : Default Constructor Year set as 0
+
+2. Test Setters on Setting day
+Actual: 21 | Expected: 21
+[ PASS ] : Date day has been set to 21
+
+3. Test Setters on Setting month
+Actual: 7 | Expected: 7
+[ PASS ] : Date month has been set to 7
+
+4. Test Setters on Setting year
+Actual: 2020 | Expected: 2020
+[ PASS ] : Date year has been set to 2020
+
+5. Test Converting Numeric Month to string in month
+Actual: July | Expected: July
+[ PASS ] : Date month in string converted to July
+
+
+All tests completed.
+Total tests: 7 |  Tests passed: 7 |  Tests failed: 0

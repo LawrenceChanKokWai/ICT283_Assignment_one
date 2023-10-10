@@ -1,0 +1,10 @@
+Test on DataReader Class
+1. Test on Failure loading and reading CSV with the wrong filename
+[ PASS ] : File returns false on opening file
+
+2. Test on loading and reading CSV with the right filename
+[ PASS ] : File returns true on opening file
+
+
+All tests completed.
+Total tests: 2 |  Tests passed: 2 |  Tests failed: 0
